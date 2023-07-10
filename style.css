@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg-img-clock.jpg);
+    background-size: cover;
+}
+h2{
+    color: #fff;
+    font-size: xx-large;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 0px 20px 372px;
+}
+.timer-text{
+ width: 1000px;
+ height: 50vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.col{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-left: 531px;
+    justify-content: center;
+}
+.text-input{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: flex;
+    width: 100px;
+    height: 68px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: #ffffff5d;
+    border: none;
+    border-radius: 10px;
+}
+ label{
+    color: #fff;
+ }
